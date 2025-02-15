@@ -16,7 +16,7 @@ app.use(express.json());
 connectDB();
 
 app.get('/', (req, res) => {
-  res.send('Hello from khushi');
+  res.send('Hello from Divyesh');
 });
 
 app.use('/api/auth', authRoutes);
